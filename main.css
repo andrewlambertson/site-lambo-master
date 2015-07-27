@@ -1,7 +1,14 @@
 /*Base*/
 h1 {
   color: white !important;
-  text-shadow: 2px 2px 13px black; }
+  text-shadow: 2px 2px 13px black;
+  font-family: 'youngregular' !important; }
+
+h2, h3, h4 {
+  font-family: 'youngregular' !important; }
+
+p {
+  font-family: 'youngregular'; }
 
 footer {
   background-color: white; }
@@ -33,7 +40,8 @@ footer {
   color: black; }
 
 .main-fade {
-  text-shadow: 1px 1px 20px  white; }
+  text-shadow: 1px 1px 20px  white;
+  font-family: 'youngregular' !important; }
 
 /* Video EMBed responsive code */
 .responsive-vid {
@@ -55,3 +63,6 @@ footer {
 /* MODULE */
 /* STATE */
 /* THEME */
+@media (max-width: 500px) {
+  h1 {
+    font-size: 33px !important; } }
