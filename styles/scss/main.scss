@@ -5,8 +5,8 @@ $main-font2: 'youngregular';
 
 
 h1 {
-	color: white !important;
-	text-shadow: 2px 2px 13px black;
+	color: black !important;
+	text-shadow: 2px 2px 13px white;
 	font-family: 'youngregular' !important;
 }
 
@@ -23,6 +23,27 @@ footer {
 	
 }
 
+h1 a {
+	color: black;
+}
+
+h1 a:hover {
+	color: white;
+	font-size: 34px;
+	text-decoration: none;
+	text-shadow: 2px 2px 13px black;
+}
+
+h3 a {
+	color: black;
+	text-decoration: underline;
+}
+
+h3 a:hover {
+	color: black;
+	font-size: 22px;
+	text-decoration: none;
+}
 
 /*Layout*/
 .call-to-action {
@@ -58,6 +79,15 @@ footer {
 .main-fade {
 	text-shadow: 1px 1px 20px  white;
 	font-family: 'youngregular' !important;
+}
+
+.float-left-h2 h2 {
+	text-align: left;
+}
+
+.float-left-h2 h3 {
+	text-align: left;
+	margin-left: 40px;
 }
 
 /* Video EMBed responsive code */
